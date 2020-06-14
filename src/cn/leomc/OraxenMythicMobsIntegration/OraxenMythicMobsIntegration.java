@@ -57,12 +57,30 @@ public class OraxenMythicMobsIntegration extends JavaPlugin implements Listener 
                 LivingEntity mob = (LivingEntity) mmse.getEntity();
                 EntityEquipment mmequip = mob.getEquipment();
                 switch(str.split(" ")[1].split(":")[1]) {
-                    case "0": mmequip.setItemInMainHand(oequip); mmequip.setItemInMainHandDropChance(0); break;
-                    case "1": mmequip.setBoots(oequip); mmequip.setBootsDropChance(0); break;
-                    case "2": mmequip.setLeggings(oequip); mmequip.setLeggingsDropChance(0); break;
-                    case "3": mmequip.setChestplate(oequip); mmequip.setChestplateDropChance(0); break;
-                    case "4": mmequip.setHelmet(oequip); mmequip.setHelmetDropChance(0); break;
-                    case "5": mmequip.setItemInOffHand(oequip); mmequip.setItemInOffHandDropChance(0); break;
+                    case "0":
+                        mmequip.setItemInMainHand(oequip);
+                        mmequip.setItemInMainHandDropChance(0);
+                        break;
+                    case "1":
+                        mmequip.setItemInOffHand(oequip);
+                        mmequip.setItemInOffHandDropChance(0);
+                        break;
+                    case "2":
+                        mmequip.setHelmet(oequip);
+                        mmequip.setBootsDropChance(0);
+                        break;
+                    case "3":
+                        mmequip.setChestplate(oequip);
+                        mmequip.setLeggingsDropChance(0);
+                        break;
+                    case "4":
+                        mmequip.setLeggings(oequip);
+                        mmequip.setChestplateDropChance(0);
+                        break;
+                    case "5":
+                        mmequip.setBoots(oequip);
+                        mmequip.setHelmetDropChance(0);
+                        break;
                 }
 
             }
