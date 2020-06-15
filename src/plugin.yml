@@ -1,5 +1,9 @@
 name: OraxenMythicMobsIntegration
 main: cn.leomc.OraxenMythicMobsIntegration.OraxenMythicMobsIntegration
-version: 2.0
+version: 3.0
 author: LeoMC
-description: Oraxen MythicMobs Integration for MythicMobs v4.9.1
+api-version: 1.14
+description: Oraxen MythicMobs Integration
+depend:
+  - MythicMobs
+  - Oraxen
