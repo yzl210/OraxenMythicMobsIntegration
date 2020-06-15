@@ -16,7 +16,7 @@ means **75** percent chance to drop **3 to 4 custom_material** items.
 #  Equipment
 `oraxen [slot] [oraxen item(equipment) name]`  
 Slots:  
-* 0, mainhand, helmet
+* 0, mainhand, weapon
 * 1, boots, shoes
 * 2, leggings, pants
 * 3, chestpiece, chestplate, body
