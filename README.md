@@ -1,3 +1,6 @@
+# Important!
+This project have been merged with Oraxen since [5013a7a](https://github.com/oraxen/Oraxen/commit/5013a7abd6415c3d141567ab1d92a309948eff96), You don't need this plugin anymore.
+
 # Oraxen MythicMobs Integration
 
 It's a bukkit plugin that can support [MythicMobs](https://www.spigotmc.org/resources/5702) to drop [Oraxen](https://www.spigotmc.org/resources/72448) items.
